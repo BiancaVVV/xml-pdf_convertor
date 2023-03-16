@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<section class="page-header">
+	<div class="container">
+		<h1 class="text-center mb-0">XML 2 PDF</h1>
+		<h2 class="text-center fw-300 text-muted fs-20 mb-0">Incarci un fisier XML in fromat ANAF si descarci PDF-ul cu datele din el.</h2>
+	</div>
+</section>
+
+
+
+<section id="portfolio">
+	<div class="container inner-bottom">
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="mb-20">Fisier XML</h3>
+				<form class="forms" action="xml2pdf.php" method="post" enctype="multipart/form-data">
+					<input type="hidden" name="do" value="upload">
+					<div class="row">
+						<div class="col-sm-12">
+							<input type="file" name="my_file" class="form-control" placeholder="Nume">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary btn-submit">Trimite fisier</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+</main>
+</head>
+</html>
